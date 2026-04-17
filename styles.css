@@ -1,0 +1,79 @@
+/* Color variables */
+:root {
+  --text: #0d0b0c;
+  --background: #f6f4f6;
+  --primary: #92798e;
+  --secondary: #c0b7b2;
+  --accent: #aaa396;
+}
+
+/* Page base */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--background);
+  color: var(--text);
+}
+
+/* Header */
+header {
+  background-color: var(--secondary);
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  color: var(--accent);
+}
+
+/* Navigation */
+nav {
+  background-color: var(--primary);
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+}
+
+nav a {
+  color: var(--text);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Main content */
+main {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: var(--accent);
+}
+
+/* Image */
+img {
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  margin: auto;
+  border-radius: 8px;
+}
+
+/* Footer */
+footer {
+  background-color: var(--secondary);
+  text-align: center;
+  padding: 15px;
+}
+
+footer a {
+  color: var(--text);
+  text-decoration: none;
+}
